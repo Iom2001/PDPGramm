@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/googleAuthFragment"
+        android:name="uz.creater.pdpgramm.fragments.GoogleAuthFragment"
+        android:label="fragment_google_auth"
+        tools:layout="@layout/fragment_google_auth">
+        <action
+            android:id="@+id/action_googleAuthFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="uz.creater.pdpgramm.fragments.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/messageChatsFragment"
+        android:name="uz.creater.pdpgramm.fragments.MessageChatsFragment"
+        android:label="fragment_message_chats"
+        tools:layout="@layout/fragment_message_chats" />
+    <fragment
+        android:id="@+id/messageGroupsFragment"
+        android:name="uz.creater.pdpgramm.fragments.MessageGroupsFragment"
+        android:label="fragment_message_groups"
+        tools:layout="@layout/fragment_message_groups" />
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="uz.creater.pdpgramm.fragments.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splashFragment_to_googleAuthFragment"
+            app:destination="@id/googleAuthFragment" />
+    </fragment>
+
+</navigation>

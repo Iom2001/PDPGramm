@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="purple_200">#EC26A9</color>
+    <color name="purple_500">#2675EC</color>
+    <color name="purple_700">#2675EC</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="line_color">#11000000</color>
+    <color name="unselected_text_color">#848484</color>
+    <color name="unselected_button_color">#E5E5E5</color>
+    <color name="item_your_message_color">#F6F6F6</color>
+    <color name="red">#F04765</color>
+    <color name="green">#39CE40</color>
+    <color name="send_message_color">#FAFAFA</color>
+
+</resources>
